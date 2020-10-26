@@ -100,7 +100,6 @@ def main():
 
     for i in range(1, len(viable)):
         line = viable[i].split(",")
-        print(line)
         ra, dec = float(line[1]), float(line[2])
         if line[3] == "GClstr":
             radius = OBJ_SIZE[1] * 2.06265e11 / (
